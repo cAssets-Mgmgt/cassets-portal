@@ -142,15 +142,6 @@ const GET_ROUTES = [
     href: "https://near.com",
   },
   {
-    logo: "/landing/logo-rhea.png",
-    brand: "Rhea",
-    audience: "retail",
-    title: "Trade on Rhea DEX",
-    body: "Swap in and out of cNEAR on-chain any time, straight from your wallet.",
-    cta: "Open Rhea",
-    href: "https://app.rhea.finance",
-  },
-  {
     logo: "/landing/logo-cassets.png",
     brand: "cAssets",
     audience: "institutional",
@@ -219,9 +210,9 @@ const FAQ = [
   ["Who issues cNEAR?", "cNEAR is issued by Assetize PCC in Jersey. It is an actively managed certificate, not a collective investment fund."],
   ["Where is my NEAR held?", "With an independent custodian, segregated from the manager."],
   ["How do I know what it is worth?", "NAV is published on-chain every month, and certificate holders also receive risk reports and trading records."],
-  ["Can I get out?", "Yes. Retail holders can sell any time on the secondary market, on near.com or Rhea. Institutions can also redeem directly with the issuer, monthly at the published NAV."],
+  ["Can I get out?", "Yes. Retail holders can sell any time on the secondary market on near.com. Institutions can also redeem directly with the issuer, monthly at the published NAV."],
   ["Who keeps the manager honest?", "An independent oversight committee can hire and fire the manager and holds a veto on material strategy changes."],
-  ["Which route should I pick?", "Retail: start on near.com, or use Rhea if you prefer to swap on-chain from your own wallet. Institutions: subscribe directly with the issuer, which also gives you NAV-priced dealing for larger tickets."],
+  ["Which route should I pick?", "Retail: buy and sell on near.com. Institutions: subscribe directly with the issuer, which also gives you NAV-priced dealing for larger tickets."],
 ];
 
 export default async function Home() {
@@ -430,7 +421,7 @@ export default async function Home() {
             <div className="stat-n">Any time</div>
             <div className="stat-l">Secondary-market liquidity</div>
             <div className="stat-d">
-              retail buys and sells on near.com or Rhea; institutions subscribe
+              retail buys and sells on near.com; institutions subscribe
               and redeem monthly at published NAV
             </div>
           </div>
